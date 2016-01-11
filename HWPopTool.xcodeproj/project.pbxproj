@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		922B3BF71C435C0D0001A162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3BF61C435C0D0001A162 /* main.m */; };
+		922B3BFA1C435C0D0001A162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3BF91C435C0D0001A162 /* AppDelegate.m */; };
+		922B3BFD1C435C0D0001A162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3BFC1C435C0D0001A162 /* ViewController.m */; };
+		922B3C001C435C0D0001A162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922B3BFE1C435C0D0001A162 /* Main.storyboard */; };
+		922B3C021C435C0D0001A162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922B3C011C435C0D0001A162 /* Assets.xcassets */; };
+		922B3C051C435C0D0001A162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922B3C031C435C0D0001A162 /* LaunchScreen.storyboard */; };
+		922B3C101C435C0D0001A162 /* HWPopToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3C0F1C435C0D0001A162 /* HWPopToolTests.m */; };
+		922B3C1B1C435C0D0001A162 /* HWPopToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3C1A1C435C0D0001A162 /* HWPopToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		922B3C0C1C435C0D0001A162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 922B3BEA1C435C0D0001A162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 922B3BF11C435C0D0001A162;
+			remoteInfo = HWPopTool;
+		};
+		922B3C171C435C0D0001A162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 922B3BEA1C435C0D0001A162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 922B3BF11C435C0D0001A162;
+			remoteInfo = HWPopTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		922B3BF21C435C0D0001A162 /* HWPopTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWPopTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		922B3BF61C435C0D0001A162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		922B3BF81C435C0D0001A162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		922B3BF91C435C0D0001A162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		922B3BFB1C435C0D0001A162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		922B3BFC1C435C0D0001A162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		922B3BFF1C435C0D0001A162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		922B3C011C435C0D0001A162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		922B3C041C435C0D0001A162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		922B3C061C435C0D0001A162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922B3C0B1C435C0D0001A162 /* HWPopToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWPopToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922B3C0F1C435C0D0001A162 /* HWPopToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPopToolTests.m; sourceTree = "<group>"; };
+		922B3C111C435C0D0001A162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922B3C161C435C0D0001A162 /* HWPopToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWPopToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922B3C1A1C435C0D0001A162 /* HWPopToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPopToolUITests.m; sourceTree = "<group>"; };
+		922B3C1C1C435C0D0001A162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		922B3BEF1C435C0D0001A162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922B3C081C435C0D0001A162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922B3C131C435C0D0001A162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		922B3BE91C435C0D0001A162 = {
+			isa = PBXGroup;
+			children = (
+				922B3BF41C435C0D0001A162 /* HWPopTool */,
+				922B3C0E1C435C0D0001A162 /* HWPopToolTests */,
+				922B3C191C435C0D0001A162 /* HWPopToolUITests */,
+				922B3BF31C435C0D0001A162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		922B3BF31C435C0D0001A162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				922B3BF21C435C0D0001A162 /* HWPopTool.app */,
+				922B3C0B1C435C0D0001A162 /* HWPopToolTests.xctest */,
+				922B3C161C435C0D0001A162 /* HWPopToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		922B3BF41C435C0D0001A162 /* HWPopTool */ = {
+			isa = PBXGroup;
+			children = (
+				922B3BF81C435C0D0001A162 /* AppDelegate.h */,
+				922B3BF91C435C0D0001A162 /* AppDelegate.m */,
+				922B3BFB1C435C0D0001A162 /* ViewController.h */,
+				922B3BFC1C435C0D0001A162 /* ViewController.m */,
+				922B3BFE1C435C0D0001A162 /* Main.storyboard */,
+				922B3C011C435C0D0001A162 /* Assets.xcassets */,
+				922B3C031C435C0D0001A162 /* LaunchScreen.storyboard */,
+				922B3C061C435C0D0001A162 /* Info.plist */,
+				922B3BF51C435C0D0001A162 /* Supporting Files */,
+			);
+			path = HWPopTool;
+			sourceTree = "<group>";
+		};
+		922B3BF51C435C0D0001A162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				922B3BF61C435C0D0001A162 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		922B3C0E1C435C0D0001A162 /* HWPopToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				922B3C0F1C435C0D0001A162 /* HWPopToolTests.m */,
+				922B3C111C435C0D0001A162 /* Info.plist */,
+			);
+			path = HWPopToolTests;
+			sourceTree = "<group>";
+		};
+		922B3C191C435C0D0001A162 /* HWPopToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				922B3C1A1C435C0D0001A162 /* HWPopToolUITests.m */,
+				922B3C1C1C435C0D0001A162 /* Info.plist */,
+			);
+			path = HWPopToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		922B3BF11C435C0D0001A162 /* HWPopTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922B3C1F1C435C0D0001A162 /* Build configuration list for PBXNativeTarget "HWPopTool" */;
+			buildPhases = (
+				922B3BEE1C435C0D0001A162 /* Sources */,
+				922B3BEF1C435C0D0001A162 /* Frameworks */,
+				922B3BF01C435C0D0001A162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWPopTool;
+			productName = HWPopTool;
+			productReference = 922B3BF21C435C0D0001A162 /* HWPopTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		922B3C0A1C435C0D0001A162 /* HWPopToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922B3C221C435C0D0001A162 /* Build configuration list for PBXNativeTarget "HWPopToolTests" */;
+			buildPhases = (
+				922B3C071C435C0D0001A162 /* Sources */,
+				922B3C081C435C0D0001A162 /* Frameworks */,
+				922B3C091C435C0D0001A162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922B3C0D1C435C0D0001A162 /* PBXTargetDependency */,
+			);
+			name = HWPopToolTests;
+			productName = HWPopToolTests;
+			productReference = 922B3C0B1C435C0D0001A162 /* HWPopToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		922B3C151C435C0D0001A162 /* HWPopToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922B3C251C435C0D0001A162 /* Build configuration list for PBXNativeTarget "HWPopToolUITests" */;
+			buildPhases = (
+				922B3C121C435C0D0001A162 /* Sources */,
+				922B3C131C435C0D0001A162 /* Frameworks */,
+				922B3C141C435C0D0001A162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922B3C181C435C0D0001A162 /* PBXTargetDependency */,
+			);
+			name = HWPopToolUITests;
+			productName = HWPopToolUITests;
+			productReference = 922B3C161C435C0D0001A162 /* HWPopToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		922B3BEA1C435C0D0001A162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = www.igancao.com;
+				TargetAttributes = {
+					922B3BF11C435C0D0001A162 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					922B3C0A1C435C0D0001A162 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 922B3BF11C435C0D0001A162;
+					};
+					922B3C151C435C0D0001A162 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 922B3BF11C435C0D0001A162;
+					};
+				};
+			};
+			buildConfigurationList = 922B3BED1C435C0D0001A162 /* Build configuration list for PBXProject "HWPopTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 922B3BE91C435C0D0001A162;
+			productRefGroup = 922B3BF31C435C0D0001A162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				922B3BF11C435C0D0001A162 /* HWPopTool */,
+				922B3C0A1C435C0D0001A162 /* HWPopToolTests */,
+				922B3C151C435C0D0001A162 /* HWPopToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		922B3BF01C435C0D0001A162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922B3C051C435C0D0001A162 /* LaunchScreen.storyboard in Resources */,
+				922B3C021C435C0D0001A162 /* Assets.xcassets in Resources */,
+				922B3C001C435C0D0001A162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922B3C091C435C0D0001A162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922B3C141C435C0D0001A162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		922B3BEE1C435C0D0001A162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922B3BFD1C435C0D0001A162 /* ViewController.m in Sources */,
+				922B3BFA1C435C0D0001A162 /* AppDelegate.m in Sources */,
+				922B3BF71C435C0D0001A162 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922B3C071C435C0D0001A162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922B3C101C435C0D0001A162 /* HWPopToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922B3C121C435C0D0001A162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922B3C1B1C435C0D0001A162 /* HWPopToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		922B3C0D1C435C0D0001A162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 922B3BF11C435C0D0001A162 /* HWPopTool */;
+			targetProxy = 922B3C0C1C435C0D0001A162 /* PBXContainerItemProxy */;
+		};
+		922B3C181C435C0D0001A162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 922B3BF11C435C0D0001A162 /* HWPopTool */;
+			targetProxy = 922B3C171C435C0D0001A162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		922B3BFE1C435C0D0001A162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922B3BFF1C435C0D0001A162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		922B3C031C435C0D0001A162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922B3C041C435C0D0001A162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		922B3C1D1C435C0D0001A162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		922B3C1E1C435C0D0001A162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		922B3C201C435C0D0001A162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWPopTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loveway.HWPopTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		922B3C211C435C0D0001A162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWPopTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loveway.HWPopTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		922B3C231C435C0D0001A162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWPopToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loveway.HWPopToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWPopTool.app/HWPopTool";
+			};
+			name = Debug;
+		};
+		922B3C241C435C0D0001A162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWPopToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loveway.HWPopToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWPopTool.app/HWPopTool";
+			};
+			name = Release;
+		};
+		922B3C261C435C0D0001A162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWPopToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loveway.HWPopToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWPopTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		922B3C271C435C0D0001A162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWPopToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Loveway.HWPopToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWPopTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		922B3BED1C435C0D0001A162 /* Build configuration list for PBXProject "HWPopTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922B3C1D1C435C0D0001A162 /* Debug */,
+				922B3C1E1C435C0D0001A162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922B3C1F1C435C0D0001A162 /* Build configuration list for PBXNativeTarget "HWPopTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922B3C201C435C0D0001A162 /* Debug */,
+				922B3C211C435C0D0001A162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		922B3C221C435C0D0001A162 /* Build configuration list for PBXNativeTarget "HWPopToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922B3C231C435C0D0001A162 /* Debug */,
+				922B3C241C435C0D0001A162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		922B3C251C435C0D0001A162 /* Build configuration list for PBXNativeTarget "HWPopToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922B3C261C435C0D0001A162 /* Debug */,
+				922B3C271C435C0D0001A162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 922B3BEA1C435C0D0001A162 /* Project object */;
+}
