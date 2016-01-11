@@ -10,13 +10,30 @@
 
 @interface ViewController ()
 
+
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 100, 100, 50);
+    btn.backgroundColor = [UIColor greenColor];
+    [btn addTarget:self action:@selector(pushNext) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+ 
+}
+
+- (void)pushNext {
+    Class class = NSClassFromString(@"SecondViewController");
+    if (class) {
+        UIViewController *vc = [class new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

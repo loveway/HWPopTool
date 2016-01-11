@@ -15,6 +15,10 @@
 		922B3C051C435C0D0001A162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922B3C031C435C0D0001A162 /* LaunchScreen.storyboard */; };
 		922B3C101C435C0D0001A162 /* HWPopToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3C0F1C435C0D0001A162 /* HWPopToolTests.m */; };
 		922B3C1B1C435C0D0001A162 /* HWPopToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3C1A1C435C0D0001A162 /* HWPopToolUITests.m */; };
+		922B3C2C1C435CD20001A162 /* HWPopTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3C2B1C435CD20001A162 /* HWPopTool.m */; };
+		922B3C301C437DAE0001A162 /* jei.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B3C2F1C437DAE0001A162 /* jei.png */; };
+		922B3C321C437EB70001A162 /* red_packge_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B3C311C437EB70001A162 /* red_packge_close.png */; };
+		922B3C351C4396AE0001A162 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B3C341C4396AE0001A162 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		922B3C161C435C0D0001A162 /* HWPopToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWPopToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922B3C1A1C435C0D0001A162 /* HWPopToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPopToolUITests.m; sourceTree = "<group>"; };
 		922B3C1C1C435C0D0001A162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922B3C2A1C435CD20001A162 /* HWPopTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPopTool.h; sourceTree = "<group>"; };
+		922B3C2B1C435CD20001A162 /* HWPopTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPopTool.m; sourceTree = "<group>"; };
+		922B3C2F1C437DAE0001A162 /* jei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jei.png; sourceTree = "<group>"; };
+		922B3C311C437EB70001A162 /* red_packge_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_packge_close.png; sourceTree = "<group>"; };
+		922B3C331C4396AE0001A162 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		922B3C341C4396AE0001A162 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,13 @@
 		922B3BF41C435C0D0001A162 /* HWPopTool */ = {
 			isa = PBXGroup;
 			children = (
+				922B3C281C435C9E0001A162 /* HWPoTools */,
 				922B3BF81C435C0D0001A162 /* AppDelegate.h */,
 				922B3BF91C435C0D0001A162 /* AppDelegate.m */,
 				922B3BFB1C435C0D0001A162 /* ViewController.h */,
 				922B3BFC1C435C0D0001A162 /* ViewController.m */,
+				922B3C331C4396AE0001A162 /* SecondViewController.h */,
+				922B3C341C4396AE0001A162 /* SecondViewController.m */,
 				922B3BFE1C435C0D0001A162 /* Main.storyboard */,
 				922B3C011C435C0D0001A162 /* Assets.xcassets */,
 				922B3C031C435C0D0001A162 /* LaunchScreen.storyboard */,
@@ -117,6 +130,8 @@
 		922B3BF51C435C0D0001A162 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				922B3C311C437EB70001A162 /* red_packge_close.png */,
+				922B3C2F1C437DAE0001A162 /* jei.png */,
 				922B3BF61C435C0D0001A162 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +153,15 @@
 				922B3C1C1C435C0D0001A162 /* Info.plist */,
 			);
 			path = HWPopToolUITests;
+			sourceTree = "<group>";
+		};
+		922B3C281C435C9E0001A162 /* HWPoTools */ = {
+			isa = PBXGroup;
+			children = (
+				922B3C2A1C435CD20001A162 /* HWPopTool.h */,
+				922B3C2B1C435CD20001A162 /* HWPopTool.m */,
+			);
+			path = HWPoTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922B3C301C437DAE0001A162 /* jei.png in Resources */,
 				922B3C051C435C0D0001A162 /* LaunchScreen.storyboard in Resources */,
+				922B3C321C437EB70001A162 /* red_packge_close.png in Resources */,
 				922B3C021C435C0D0001A162 /* Assets.xcassets in Resources */,
 				922B3C001C435C0D0001A162 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922B3C351C4396AE0001A162 /* SecondViewController.m in Sources */,
 				922B3BFD1C435C0D0001A162 /* ViewController.m in Sources */,
 				922B3BFA1C435C0D0001A162 /* AppDelegate.m in Sources */,
+				922B3C2C1C435CD20001A162 /* HWPopTool.m in Sources */,
 				922B3BF71C435C0D0001A162 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
